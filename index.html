@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fd04055534.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <title>Sapient Games Arena</title>
+</head>
+
+<body>
+  <div class="bg-dark">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <a class="navbar-brand" href="index.html">
+          <div class="h5 mb-0 font-weight-light text-uppercase">
+            Sapient Games Arena
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Work
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" target="_blank" href="https://www.rizlet.com/design.html">Rizlet watches</a>
+                <a class="dropdown-item" target="_blank" href="http://www.naidupanjabi.com/">Naidu Panjabi</a>
+                <a class="dropdown-item" target="_blank" href="https://nandinibhotika.com">Nandini Bhotika</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="Pushpender_Singh_-_Senior_Developer.pdf">My Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+  <div class="container">
+
+    <div class="d-md-flex d-block justify-content-between align-items-center mt-4 mt-lg-5 ">
+      <h3 class="mb-2 font-weight-bolder">Games <span id="count" class="font-weight-light">(0)</span></h3>
+
+      <div class="d-md-flex d-block align-items-end mb-2">
+        <form class="form-inline my-2 my-md-0 mr-0 mr-sm-3">
+          <input id="search" class="search form-control w-100" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <form class="form-inline mt-3 mt-md-0 ">
+          <select class="custom-select mr-0 mr-sm-3" id="platformSelect">
+            <option selected value='empty'>Filter by Platform</option>
+          </select>
+        </form>
+        <div class="dropdown mt-3 mt-md-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sort by
+          </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <a id="sortdown" class="dropdown-item" href="#">Score High - Low</a>
+            <a id="sortup" class="dropdown-item" href="#">Score Low - High</a>
+            <div class="dropdown-divider"></div>
+            <a id="sortdownyear" class="dropdown-item" href="#">Latest</a>
+            <a id="sortupyear" class="dropdown-item" href="#">Oldest</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="content mt-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4" id="content">
+        <div class="loading-con">
+          <img class="loading" src="img/loading.gif" alt="Loading....">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark py-2 mt-5">
+    <div class="container">
+      <div class="text-center text-white small">
+        © 2020 Sapient Games Arena. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/common.js">
+  </script>
+</body>
+
+</html>

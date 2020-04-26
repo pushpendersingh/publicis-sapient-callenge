@@ -1,0 +1,75 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  padding: .75rem 0rem;
+}
+.navbar-brand img{
+      width: 8rem;
+}
+.search{
+    border:1px solid #c6c5c5;
+    border-radius: 0;
+    padding: 0 .75rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    letter-spacing: 1px;
+}
+.loading-con {
+    width: 100%;
+    display: flex;
+    margin-left: 50%;
+    flex: 0 0 0;
+    max-width: 100%;
+    transform: translateX(-50%);
+    justify-content: center;
+    justify-self: center;
+    padding: 5rem;
+}
+.loading{
+  text-align: center;
+  display: flex;
+  height: 7rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-width: 7rem;
+}
+
+.text-blue {
+    color: #007bff;
+}
+
+h5,.h5{
+  letter-spacing: 1px;
+}
+
+.platform{
+  background-color: #545b62;
+  color: #fff;
+  padding: .2rem;
+  font-size: .8rem;
+  font-weight: 400;
+  position: absolute;
+  top: -1.5rem;
+  letter-spacing: 1px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border: 0;
+    font-size: 1.5rem;
+}
+.card-body{
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand .h5{
+    font-size: 1.2rem;
+  }
+
+}
